@@ -1,33 +1,39 @@
 body {
-  background-color: aliceblue;
   margin: 20px;
   padding: 5px 10px;
   background-image: url("background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  font-family:serif;
 }
+
 #intro{
   background-color: rgb(196, 74, 118);
-  font-size: larger;
+  font-size:larger;
 }
+
 .hi {
   text-align: center;
-  color:black;
+  color:lavenderblush;
 }
+
 .name {
   text-align: center;
-  color:black;
+  color:rgb(252, 203, 219);
+  font-style: italic;
 }
+
 .words {
-  color:black;
+  color:rgb(254, 229, 232);
   text-align: center;
 }
+
 .pic{
   margin: 5px;
   padding: 10px 10px;
 }
+
 .pic img {
   border-radius: 50%;
   margin-left: auto;
@@ -35,16 +41,19 @@ body {
   margin-top: 20px;
   display: flex;
 }
+
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 5px;
   overflow: hidden;
   background-color: rgb(111, 6, 50);
 }
+
 li {
   float: left;
 }
+
 li a {
   display: block;
   color: aliceblue;
@@ -52,10 +61,41 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-/*Change the link color to #f5f5f5 on hover*/
+
 li a:hover {
   background-color: black;
 }
+
 li {
   border-right: 1px solid #f5f5f5;
+}
+#form{
+  background-color:rgb(163, 67, 102);
+  background-size: 100% 100%;
+  color:whitesmoke;
+  margin: 30px;
+  padding: 12px 20px;
+  border: none;
+  text-align:center;
+}
+input{
+  width: 100%;
+  margin: auto;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid rgb(209, 113, 239);
+  border-radius: 4.5px;
+  text-align:center;
+}
+.submit{
+  margin: auto;
+  padding: 12px 20px;
+  border-radius: 5px;
+  display: block;
+  box-sizing:border-box;
+  margin-top: 20px;
+}
+.submit:hover{
+  background-color:rgb(110, 38, 177);
+  color:#ffffff;
 }
