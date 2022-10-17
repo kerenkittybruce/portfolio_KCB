@@ -4,7 +4,7 @@ body {
   background-image: url("greygold.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 #intro {
   background-color: rgba(218, 165, 32, 0.888);
@@ -72,7 +72,7 @@ li {
   margin: 30px;
   padding: 25px;
   border: none;
-  border-radius: 4.5px;
+  border-radius: 5px;
   text-align: center;
 }
 input {
@@ -99,7 +99,7 @@ input {
 }
 #about {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   color: black;
   padding: 25px;
   border-radius: 4.5px;
@@ -120,13 +120,16 @@ input {
   border-radius: 50%;
   position: relative;
 }
-.aboutme{
+.aboutme {
   text-align: center;
 }
 #box-2 {
   flex: 2;
   background-color: rgba(218, 159, 11, 0.816);
   padding: 20px;
+}
+.skills{
+  text-align: center;
 }
 .skilllogo {
   width: 450px;
@@ -136,4 +139,7 @@ input {
   flex: 3;
   background-color: rgba(236, 184, 54, 0.816);
   padding: 20px;
+}
+.projects{
+  text-align: center;
 }
