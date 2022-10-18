@@ -181,7 +181,7 @@ input {
 }
 
 .fa-github {
-  background-color: rgb(73, 71, 71);
+  background-color: rgb(46, 198, 61);
 }
 .fa-linkedin {
   background-color: rgb(180, 0, 0);
@@ -195,10 +195,10 @@ input {
   background-color: rgb(216, 11, 11);
 }
 
-.fa-instagram{
+.fa-instagram {
   background-color: rgb(254, 200, 24);
 }
 
-.fa-angellist{
-  background-color:palevioletred;
+.fa-angellist {
+  background-color: palevioletred;
 }
