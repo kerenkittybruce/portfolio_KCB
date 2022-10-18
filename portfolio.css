@@ -175,3 +175,30 @@ input {
   text-align: center;
   text-decoration: none;
 }
+
+.fa-twitter {
+  background-color: rgb(87, 87, 223);
+}
+
+.fa-github {
+  background-color: rgb(73, 71, 71);
+}
+.fa-linkedin {
+  background-color: rgb(180, 0, 0);
+}
+
+.fa-reddit {
+  background-color: orangered;
+}
+
+.fa-youtube {
+  background-color: rgb(216, 11, 11);
+}
+
+.fa-instagram{
+  background-color: rgb(254, 200, 24);
+}
+
+.fa-angellist{
+  background-color:palevioletred;
+}
