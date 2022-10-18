@@ -168,6 +168,10 @@ input {
 }
 
 /*--Social media section--*/
+.section{
+  display: flex;
+  justify-content: center;
+}
 .fa {
   padding: 25px;
   font-size: 30px;
