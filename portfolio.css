@@ -167,6 +167,51 @@ input {
   text-align: center;
 }
 
+/*--Warframe Project--*/
+.gaming {
+  position: relative;
+}
+
+.war-img {
+  display: block;
+  width: 100%;
+}
+
+.text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.text:hover {
+  opacity: 1;
+}
+
+.warframe {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 1.25em;
+  margin-top: 0.25em;
+}
+
+/*--ChatBot Project--*/
+.chattome {
+  position: relative;
+}
+
 /*--Social media section--*/
 .section {
   display: flex;
