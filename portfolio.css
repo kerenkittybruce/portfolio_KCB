@@ -212,6 +212,11 @@ input {
   position: relative;
 }
 
+.chat {
+  display: block;
+  width: 100%;
+}
+
 /*--Social media section--*/
 .section {
   display: flex;
